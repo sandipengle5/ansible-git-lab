@@ -1,0 +1,14 @@
+---
+- name: Create user
+  hosts: all
+  become: yes
+  
+  tasks:
+    - name: create a user with home directory
+      user:
+        name: devops
+        comment: devops user
+        uid: 1040
+        group: devops
+        create_home: yes
+        
