@@ -16,4 +16,11 @@
       package:
         name:
           - tree
+
+    - name: install vim
+      package:
+        name:
+          - vim
+        state: present
+
       
