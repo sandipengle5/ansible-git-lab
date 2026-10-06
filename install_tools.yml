@@ -10,4 +10,5 @@
           - git
           - vim
           - htop
+          - tree
         state: present
