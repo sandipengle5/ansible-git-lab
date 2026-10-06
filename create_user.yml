@@ -11,4 +11,9 @@
         uid: 1040
         group: devops
         create_home: yes
-        
+  
+    - name: install packages
+      package:
+        name:
+          - tree
+      
