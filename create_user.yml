@@ -16,6 +16,7 @@
       package:
         name:
           - tree
+          - curl
 
     - name: install vim
       package:
