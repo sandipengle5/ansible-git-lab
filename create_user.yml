@@ -23,4 +23,11 @@
           - vim
         state: present
 
+    - name: install wget
+      package:
+        name:
+          - wget
+
+
+
       
